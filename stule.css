@@ -27,7 +27,7 @@ main {
     display: flex;
     flex-wrap: wrap;
     padding: 20px;
-    text-aling:center
+    justify-content: center;
 }
 
 main > div {
