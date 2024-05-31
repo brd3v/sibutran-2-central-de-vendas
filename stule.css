@@ -28,7 +28,6 @@ main {
     flex-wrap: wrap;
     justify-content: center;
     padding: 20px;
-    margin-top: 120px; /* Adicionando espaço para o cabeçalho fixo */
 }
 
 main > div {
