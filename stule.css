@@ -11,7 +11,7 @@ body {
 }
 
 header {
-    background-color: #343a40; /* Cor de fundo para o cabeçalho */
+    background-color: #000; /* Cor de fundo para o cabeçalho */
     color: white;
     text-align: center;
     padding: 20px 0;
@@ -24,14 +24,17 @@ main {
     padding: 20px;
 }
 
+main > div {
+    flex: 1;
+    margin: 10px;
+    max-width: 400px; /* Definindo a largura máxima para as seções */
+}
+
 .card {
     background-color: white;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    margin: 15px;
     padding: 20px;
-    max-width: 300px;
-    width: calc(100% - 30px);
     transition: transform 0.3s ease;
 }
 
@@ -61,22 +64,21 @@ button {
     padding: 10px 20px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    margin-top: 20px; /* Adicionando margem superior ao botão */
 }
 
 button:hover {
     background-color: #218838; /* Cor do botão ao passar o mouse */
 }
 
-/* Media queries para dispositivos de tela menores */
-
-@media screen and (max-width: 768px) {
-    .card {
-        max-width: calc(50% - 30px);
-    }
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    padding: 10px 0;
 }
 
-@media screen and (max-width: 576px) {
-    .card {
-        max-width: calc(100% - 30px);
-    }
+footer img {
+    max-width: 100%;
 }
