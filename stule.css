@@ -8,13 +8,19 @@ body {
     font-family: Roboto, sans-serif;
     background-color: #f8f9fa; /* Cor de fundo para o corpo */
     color: #333; /* Cor do texto */
+    padding-top: 100px; /* Adicionando espaço para o cabeçalho */
 }
 
 header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     background-color: #000; /* Cor de fundo para o cabeçalho */
     color: white;
     text-align: center;
     padding: 20px 0;
+    z-index: 1000; /* Garantindo que o cabeçalho esteja acima de outros elementos */
 }
 
 main {
@@ -22,6 +28,7 @@ main {
     flex-wrap: wrap;
     justify-content: center;
     padding: 20px;
+    margin-top: 120px; /* Adicionando espaço para o cabeçalho fixo */
 }
 
 main > div {
@@ -59,26 +66,4 @@ main > div {
 button {
     background-color: #28a745; /* Cor do botão */
     color: white;
-    border: none;
-    border-radius: 4px;
-    padding: 10px 20px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    margin-top: 20px; /* Adicionando margem superior ao botão */
-}
-
-button:hover {
-    background-color: #218838; /* Cor do botão ao passar o mouse */
-}
-
-footer {
-    width: 100%;
-    position: fixed;
-    bottom: 0;
-    text-align: center;
-    padding: 10px 0;
-}
-
-footer img {
-    max-width: 100%;
-}
+    b
