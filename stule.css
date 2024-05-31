@@ -83,6 +83,18 @@ button:hover {
     background-color: #218838; /* Cor do botão ao passar o mouse */
 }
 
+/* Estilização do botão dentro do link */
+.button-container a {
+    text-decoration: none; /* Removendo sublinhado do link */
+    color: white; /* Cor do texto do link */
+    display: flex; /* Transformando o link em um contêiner flexível */
+    align-items: center; /* Alinhando itens verticalmente */
+}
+
+.button-container img {
+    margin-left: 10px; /* Adicionando margem à esquerda para o ícone do WhatsApp */
+}
+
 footer {
     width: 100%;
     position: fixed;
