@@ -92,7 +92,8 @@ button:hover {
 }
 
 .button-container img {
-    margin-left: 10px; /* Adicionando margem à esquerda para o ícone do WhatsApp */
+    margin-left: 5px; /* Reduzindo a margem à esquerda para o ícone do WhatsApp */
+    max-width: 24px; /* Limitando o tamanho máximo do ícone */
 }
 
 footer {
